@@ -3,7 +3,7 @@ class Time{
 	public static function RealTime($Fecha = ""){
 		$Intervalos = array("seg", "min", "hora", "día", "semana", "mes", "año");
 		$Duraciones = array("60","60","24","7","4.35","12");
-		$Indefinido = "Indefinido";
+		$Indefinido = "";
 		$FHora = "H:i:s";
 		$Formato = array("Y/m/d $FHora","Y-m-d $FHora","d/m/Y $FHora","d-m-Y $FHora");
 		$CF = count($Formato);
